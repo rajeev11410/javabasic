@@ -9,7 +9,7 @@ public class JDBC1{
 
             String url = "jdbc:mysql://localhost:3306/youtube";
             String username = "root";
-            String password = "atharv@sql24db";
+            String password = "rajeev@sql24db";
 
             Connection cn = DriverManager.getConnection(url, username, password);
 
