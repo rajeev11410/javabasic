@@ -7,7 +7,7 @@ public class JDBC5 {
     public static void main(String[] args) {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection dc = DriverManager.getConnection("jdbc:mysql://localhost:3306/youtube", "root", "atharv@sql24db");
+            Connection dc = DriverManager.getConnection("jdbc:mysql://localhost:3306/youtube", "root", "rajeev@sql24db");
 
             String q = "insert into myimages(pic) values(?)";
 
